@@ -1,0 +1,32 @@
+/* 인접 형제 선택자 함께 사용하기(기본) */
+/* 
+인접 선택자 : + 사용(plus)
+형제 선택자 : ~ 사용(tild)
+
+※ 인접 형제 선택자를 사용할 경우 형제요소 기준 아래 오소만 선택 가능 (위의 요소 선택 불가)
+*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul ~ div p + div {
+    color: red;
+}
+
+/* 인접 형제 선택자 함께 사용하기(input) */
+/* 
+:checked 가상클래스
+input[type=checkbox]:checked + 선택자 {...}
+input[type=radio]:checked + 선택자 {...}
+*/
+input[type=radio]:checked ~ span {
+    font-weight: bold;
+    color: red;
+}

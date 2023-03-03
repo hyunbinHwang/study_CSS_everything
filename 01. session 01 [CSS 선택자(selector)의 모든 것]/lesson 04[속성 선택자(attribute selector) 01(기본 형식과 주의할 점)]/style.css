@@ -1,0 +1,60 @@
+/* 속성 선택자(attribute selectors) 기본형식 */
+/* 
+속성 : property, attribute
+선택자[속성멱="값"] {...} == input[type="email"] {...}
+*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    /* font-family: 'Noto Sans KR', sans-serif; body에 추가된 font-family 는 form 요소에 적용 되지 않음 */
+    /* margin: 0 auto; */
+}
+
+.login {
+    border: 1px solid #000;
+    width: 400px;
+    padding: 15px;
+}
+
+/* .userid {}
+.useremail {}
+.userpw {}
+.btn-login {} */
+
+.login input[type=text], 
+.login input[type=email], 
+.login input[type=password] {
+    width: 100%;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+}
+.login button {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    margin: 5px 0;
+}
+.login input[type=text] {
+    color: red;
+}
+.login input[type=email] {
+    color: blue;
+}
+
+.login label {
+    display: block;
+    text-align: center;
+}
+
+.login label input[type=checkbox],
+.login label input[type=radio] {
+    
+}

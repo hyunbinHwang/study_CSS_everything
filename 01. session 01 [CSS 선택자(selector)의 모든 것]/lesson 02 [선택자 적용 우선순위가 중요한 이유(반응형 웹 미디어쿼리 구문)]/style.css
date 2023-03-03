@@ -1,0 +1,47 @@
+/* CSS 선택자 적용 우선순위 */
+/* 동일한 CSS 속성이 중복 사용되는 경우 우선 순위에 따라 적용 */
+/* 
+(No.1) !important Style
+(No.2) Inline Style
+(No.3) ID Selector Style
+(No.4) Class Selector Style
+(No.5) Tag Selector Style
+*/
+
+/* Google Web Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ccc;
+}
+
+h1 {
+    color: red !important;
+}
+.blue-text {
+    color: blue;
+}
+#green-text {
+    color: green;
+}
+
+/* 반응형 웹 미디어쿼리 구문 */
+/* 선택자 형식을 맞춰주는게 좋음 */
+section.about {
+    background-color: crimson;
+    color: #fff;
+    padding: 25px;
+}
+
+@media (max-width: 768px) {
+    section.about {
+        background-color: yellowgreen;
+        color: #000;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 태그 선택자 / 클래스 선택자 / 아이디 선택자 -->
+    <h1>Heading</h1>
+    <p>Paragraph</p>
+    <ul>
+        <li>Coffee</li>
+        <li id="green-text" class="large-text">Tea</li>
+        <li>Milk</li>
+    </ul>
+    <p class="blue-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aut quam esse ea laudantium quo recusandae sequi. Impedit, nostrum quibusdam aut quam consequuntur suscipit, praesentium voluptatem pariatur similique odit distinctio?
+    </p>
+
+    <!-- 결합 선택자 -->
+    <h1>Heading</h1>
+    <div class="start">
+        <span>Inline Text  1</span>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+        <div>
+            <p>
+                <span>Paragraph 3</span>
+            </p>
+            <span>Inline Text 3</span>
+        </div>
+    </div>
+    <p class="end">Paragraph 3</p>
+
+    <!-- 클래스 중첩해서 사용하기 -->
+    <p class="text-center">Center</p>
+    <p class="text-center text-large">Center & Large</p>
+    <p class="text-center text-large text-blue">Center & Large & Blue</p>
+
+    <!-- 전체 선택자(Global Selector) -->
+    <h1>H1 Heading</h1>
+    <h2>H2 Heading</h2>
+    <h3>H3 Heading</h3>
+    <h4>H4 Heading</h4>
+    <h5>H5 Heading</h5>
+    <h6>H6 Heading</h6>
+    <p>Paragraph</p>
+    <span>Inline Text</span>
+    <input type="text" value="Enter Your Email">
+    <button>Sign-In</button>
+
+    <div class="frame">
+        <div>Div 1</div>
+        <div>Div 2</div>
+        <div>Div 3</div>
+    </div>
+
+    <!-- 태그와 함께 사용하는 선택자(ID Selector) -->
+    <div class="container">
+        <header>
+            <nav>
+                <div class="header-logo">Header Logo</div>
+                <div class="gnb">GNB Navigator</div>
+            </nav>
+        </header>
+        <section class="about">
+            <div class="inner">
+                <h1 class="about">This is about section</h1>
+                <div class="content">
+                    <div>Content 1</div>
+                    <div>Content 2</div>
+                    <div>Content 3</div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
