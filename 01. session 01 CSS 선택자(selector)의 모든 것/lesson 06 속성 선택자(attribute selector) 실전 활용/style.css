@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
+
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    margin: 0;
+}
+
+/* Common CSS */
+/* .welcome-inner,
+.about-inner,
+.portfolio-inner {
+    border: 1px solid #000;
+    width: 1200px;
+    margin: auto;
+} */
+
+[class*=inner] {
+    border: 1px solid #000;
+    width: 1200px;
+    margin: auto;
+}
+
+.container {}
+header {
+    background-color: #ddd;
+    height: 100px;
+}
+.welcome {
+
+}

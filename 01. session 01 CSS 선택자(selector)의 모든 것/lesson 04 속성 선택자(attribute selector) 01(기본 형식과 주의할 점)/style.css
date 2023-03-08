@@ -1,7 +1,7 @@
 /* 속성 선택자(attribute selectors) 기본형식 */
 /* 
 속성 : property, attribute
-선택자[속성멱="값"] {...} == input[type="email"] {...}
+선택자[속성명="값"] {...} == input[type="email"] {...}
 */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap');
 
