@@ -30,6 +30,10 @@ header {
     background-color: #ddd;
     height: 100px;
 }
-.welcome {
+.welcome {}
+.about {}
+.portfolio {}
 
-}
+.content {}
+
+div[class=content] {}
