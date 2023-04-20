@@ -17,4 +17,4 @@
 - 포지션(position) 속성(static, relative, absolute, fixed, sticky)
 - 포지션(position) 속성(부모요소 자식요소 관계 맺기)
 - 포지션(position) 속성(absolute, fixed, sticky 차이점)
-- 포지션(position) 속성(부모요소 내부와 외부에서 위치하기)
+- 포지션(position) 속성(부모요소 내부와 외부에서 위치하기) 
